@@ -14,5 +14,5 @@ def derivative_Tanh(x):
 if __name__ == "__main__":
     x = np.arange(-10, 10, 0.1)
     print("X =", x)
-    print("Sigmoid(x) =",Tanh(x))
+    print("Tanh(x) =",Tanh(x))
     print("Derivative =", derivative_Tanh(x))

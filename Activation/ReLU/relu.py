@@ -11,5 +11,5 @@ def derivative_ReLU(x):
 if __name__ == "__main__":
     x = np.arange(-10, 10, 0.1)
     print("X =", x)
-    print("Sigmoid(x) =",ReLU(x))
+    print("ReLU(x) =",ReLU(x))
     print("Derivative =", derivative_ReLU(x))
